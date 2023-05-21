@@ -1,0 +1,10 @@
+:root{
+    --negro: #000;
+    --blanco: #fff;
+    --azulPrimario: #1735b3;
+    --azulSecundario: #0f1f3f;
+    --verde:#17b3b0;
+    --rojo:#ff0000;
+
+    --fuentePrincipal:'Fira Sans', sans-serif;
+}

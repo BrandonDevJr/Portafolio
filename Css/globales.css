@@ -1,0 +1,41 @@
+@import url(style.css);
+@import url(utilidades.css);
+
+/* GLOBALES */
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    line-height: 1.8;
+}
+*,*:before,*:after{
+    box-sizing:inherit;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+body{
+    margin: 0;
+    font-family: var(--fuentePrincipal);
+    background-color: var(--azulSecundario);
+}
+h1,h2,h3,p{
+    margin: 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 3.5rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2.3rem;
+}
+.contenedor{
+    max-width: 100rem;
+    margin: 0 auto;
+    width: 90%;
+}

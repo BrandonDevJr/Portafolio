@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/Css/globales.css">
+    <link rel="stylesheet" href="/Css/contacto.css">
+    <link rel="stylesheet" href="/Css/utilidades.css">
+
+    <title>Brandon Dev</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navegacion">
+            <div class="navegacion__logo-contenedor">
+                <p class="navegacion__logo">
+                    Brandon Dev
+                </p>
+            </div>
+            <div class="navegacion__links-contenedor">
+                <img class="icono" src="/archivos/casa icono.png" alt="home">
+                <a class="navegacion__link" href="/index.html">Inicio</a>
+
+                <img class="icono" src="/archivos/user icon.png" alt="user">
+                <a class="navegacion__link" href="#">Sobre Mí</a>
+
+                <img class="icono" src="/archivos/proyectos icon.png" alt="proyectos">
+                <a class="navegacion__link" href="#">Proyectos</a>
+
+                <img class="icono" src="/archivos/email icon.png" alt="email">
+                <a class="navegacion__link" href="#">Contactame</a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="formulario contenedor">
+        <h1 class="formulario__titulo">Contactame</h1>
+        <form class="formulario__info" action="https://formsubmit.co/brandonstevenvera@gmail.com" method="POST">
+            <fieldset  id="formulario">
+                <Legend class="formulario__titulo-info">Datos Para Contacto</Legend>
+                <div class="formulario__contenido">
+    
+                    <div class="formulario__campos">
+                        <label>Email: *</label>
+                        <input id= "email" type="email" name="Email" class="email"
+                        placeholder="Ingrese su email, ej: mkt@empresa.com" >
+                    </div>
+
+                    <div class="formulario__campos">
+                        <label>Asunto: *</label>
+                        <input id= "asunto" type="text" name="Asunto" class="asunto"
+                        placeholder="Ingrese el asunto, ej: Entrevista Laboral">
+                    </div class="formulario__campos">
+                    
+                    <div class="formulario__campos">
+                        <Label>Mensaje: *</Label>
+                        <textarea id= "mensaje" class="mensaje" name="Mensaje" id="" cols="30" rows="5"
+                        placeholder="Ingrese el mensaje a enviar"></textarea>
+                    </div>
+
+                </div>
+                <div class="boton__contenedor">
+                    <button class="boton__enviar opacity-50" type="submit" disabled>Enviar Correo</button>
+                    <button class="boton__reset " type="reset">Reset</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+    <footer class="footer">
+        <p class="texto__footer">Derechos Reservados Brandon Dev&copy;</p>
+    </footer>
+    <script src="/Javascript/formulario.js"></script>
+</body>
+</html>
